@@ -33,14 +33,13 @@ def get_spotify_playlist_tracks(playlist_url):
 
 def download_youtube_audio(track_name):
     ydl_opts = {
-        'format': 'bestaudio/best',  # Descarga el mejor formato de audio disponible
-        'outtmpl': DOWNLOAD_PATH ,  # Ruta personalizada
-        'noplaylist': True,  # Descarga solo el video, no la playlist
-        'cachedir': False,  # Desactiva la caché para evitar errores
+        'format': 'bestaudio/best',
+        'outtmpl': DOWNLOAD_PATH ,
+        'noplaylist': True,
+        'cachedir': False,
     }
     
     try:
-        # Buscar en YouTube
         results = YoutubeSearch(track_name, max_results=1).to_dict()
         if results:
             url = f"https://youtube.com{results[0]['url_suffix']}"
