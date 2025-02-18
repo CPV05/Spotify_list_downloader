@@ -44,5 +44,5 @@ Before running the script, update the following fields in the script:
 This project is for educational purposes only. Make sure you comply with YouTube and Spotify's terms of service.
 
 ## Author
-By: [CarlesP.](https://github.com/CarlesP)
+By: [CarlesP.](https://github.com/CPV05)
 
