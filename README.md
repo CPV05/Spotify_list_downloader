@@ -14,8 +14,8 @@ A simple Python script to download songs from a Spotify playlist by searching fo
 ## Installation
 1. Clone this repository:
    ```sh
-   git clone https://github.com/your-username/spotify-playlist-downloader.git
-   cd spotify-playlist-downloader
+   git clone https://github.com/CPV05/Spotify_list_downloader.git
+   cd Spotify_list_downloader
    ```
 2. Install dependencies:
    ```sh
